@@ -5,6 +5,7 @@
  */
 package rentaautomoviles;
 
+import javax.swing.JOptionPane;
 import javax.swing.table.TableModel;
 
 /**
@@ -23,8 +24,8 @@ public class fmrModificar extends javax.swing.JDialog {
         initComponents();
         carritos = c;
         LlenarTabla();
+     JOptionPane.showMessageDialog(null,"hola mundo");
     }
-
     public void LlenarTabla() {
         TableModel tablCarros = jTable1.getModel();
         int filas = 5;
